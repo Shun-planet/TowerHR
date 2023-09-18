@@ -26,7 +26,7 @@ body{
 #menu>p{
     color: #BCBCBC;
     font-family: 'Cabinet Grotesk', sans-serif;
-    font-size: 10%;
+    font-size: .7rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
@@ -134,6 +134,7 @@ body{
 }
 .info{
     margin-right: 1rem;
+    margin-top: .5rem;
 }
 .info>h1{
     font-size: .8rem;
@@ -193,11 +194,12 @@ body{
     padding-top: .2rem;
 }
 .text{
-    color: #BCBCBC;
+    color: #8d8d8d;
 }
 .text1{
     padding-left: .7rem;
     padding-bottom: 1rem;
+    color: #8d8d8d;
 }
 .view{
     background-color: black;
@@ -209,4 +211,111 @@ body{
     margin-bottom: .1rem;
     /* padding-top: 3px; */
     /* border-radius: 4px; */
+}
+/* cards end here */
+
+/* feeds begin here */
+#feeds{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+.activity{
+    margin: 2rem 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #FEFFFB;
+    border-radius: 7px;
+    >p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-bottom: 1rem;
+    }
+    .feedItem {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: auto 3fr .5fr auto;
+            grid-template-areas: auto auto auto auto auto;
+            align-items: center;
+            padding-bottom: 1rem;
+                .feedItem-img{
+                    width: auto;
+                }
+                /* Texts */
+                .feedItem-txt{
+                    margin-left: .8rem;
+                    
+                    >h1{
+                        font-size: 1rem;
+                        font-weight: 400;
+                        margin-bottom: 5px;
+                    }
+                    >p{
+                        font-size: .7rem;
+                        color: #8d8d8d;
+                    }
+                }
+                .feedItem-view{
+                    background-color: black;
+                    color: #C2FF51;
+                    font-size: .7rem;
+                    text-align: center;
+                    padding: 0.5rem 0;
+                    width: 3rem;
+                    height: 2rem;
+                    border-radius: 7px;
+                }
+            }
+}
+        /*  schedules  */
+.schedules{
+    margin: 2rem 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #FEFFFB;
+    border-radius: 7px;
+    >p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-bottom: 1rem;
+    }
+    .scheduleItem{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto 1fr .2fr auto;
+        grid-template-areas: auto auto auto auto auto;
+        align-items: center;
+        padding-bottom: 1rem;
+        padding-top: .8rem;
+        .calender{
+            background-color: black;
+            text-align: center;
+            margin-right: 2.5rem;
+            width: 2rem;
+            height: 2.5rem;
+            padding: .5rem 0;
+            border-radius: 7px;
+            >h1{
+                color: #FEFFFB;
+                font-weight: 300;
+                font-size: .8rem;
+            }
+            >p{
+                color: #C2FF51;
+                font-weight: 300;
+                font-size: .5rem;
+            }
+        }
+        .schedule-txt{
+            margin-right: 2.5rem;
+            >h1{
+                font-size: 1rem;
+                font-weight: 400;
+                margin-bottom: 5px;
+            }
+            >p {
+                font-size: .7rem;
+                color: #8d8d8d;
+            }
+        }
+    }
 }
