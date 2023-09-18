@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+
+
+/* body styling */
+body{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 15% 85%;
+    min-height: 100vh;
+    font-family: Cabinet Grotesk;
+}
+
+/* side menu styling */
+#menu{
+    background-color: #222125;
+    /* min-width: 15%; */
+    padding-left: 1.5rem;
+}
+#menu>p{
+    color: #BCBCBC;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 10%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.logo{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.logo>p{
+    color: #FEFFFB;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.1rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+
+.items{
+    display: flex;
+    justify-items: center;
+    cursor: pointer;
+}
+.items>p{
+    color: #BCBCBC;
+    font-family: Cabinet Grotesk;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+}
+.items>p:hover,.items>svg:hover {
+    font-weight: 700;
+    font-size: 1rem;
+    width: 20px !important;
+    height: 20px !important;
+    transition: 0.5s;
+}
+.items  >svg {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+
+
+/* work area styling */
+#workArea {
+    background-color: #ececec;
+    /* min-width: 85%; */
+    
+}
+/* top bar */
+.dashBar{
+    background-color: #FEFFFB;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 16rem auto auto 17rem;
+    align-items: center;
+    padding: 0 1.5rem;
+    /* justify-content: space-between; */
+    height: 5rem;
+    box-shadow: 2px 2px 3px rgb(199, 199, 199);
+    margin-bottom: 2rem;
+}
+.searchBar{
+    display: flex;
+    border-radius: 10px;
+    background-color: #ececec;
+    padding-left: .4rem;
+    padding-top: .2rem;
+}
+.searchBar>input{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 2rem;
+    width: 15rem;
+}
+.searchBar>input::placeholder{
+    padding: .2rem .8rem;
+    color: #8d8d8d;
+}
+
+.othersBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 30%; */
+}
+.notification{
+    background-color: #C2FF51;
+    height: 1.7rem;
+    width: 1.7rem;
+    padding-top: .1rem;
+    padding-left: .06rem;
+    border-radius: 5px;
+}
+.profile{
+    display: flex;
+}
+.info{
+    margin-right: 1rem;
+}
+.info>h1{
+    font-size: .8rem;
+}
+.info>p {
+    font-size: .6rem;
+    color: #8d8d8d;
+}
+.profile-img>img{
+    border-radius: 100%;
+}
+/* top bar ends */
+
+.itemName{
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-left: 1.5rem;
+
+}
+
+/* cards starts here */
+.cards{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 1.5rem;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.cardItem{
+    padding-top: .8rem;
+    background-color: #FEFFFB;
+    border-radius: 7px;
+}
+.cardTitle{
+    padding-left: .7rem;
+    padding-bottom: 1rem;
+}
+.cardNo{
+    padding-left: .7rem;
+    padding-bottom: 1rem;
+}
+.cardPercent{
+    padding-left: .7rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 20% 80%;
+    padding-bottom: 1rem;
+
+}
+.percent{
+    background-color: #C2FF51;
+    text-align: center;
+    margin-right: .6rem;
+    font-size: .7rem;
+    padding-top: .2rem;
+}
+.text{
+    color: #BCBCBC;
+}
+.text1{
+    padding-left: .7rem;
+    padding-bottom: 1rem;
+}
+.view{
+    background-color: black;
+    color: #C2FF51;
+    font-size: .8rem;
+    width: 16rem;
+    text-align: center;
+    padding: 0.8rem 0;
+    margin-bottom: .1rem;
+    /* padding-top: 3px; */
+    /* border-radius: 4px; */
+}
