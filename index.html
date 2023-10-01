@@ -17,7 +17,7 @@
 
         <!-- menu item -->
         <p>Menu</p>
-        <div class="items">
+        <div class="items" onclick="clickDashboard()">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
               <path d="M13.1056 3.94721L6.45554 7.27224C5.67499 7.66251 5.28472 7.85765 5.28472 8.16667C5.28472 8.47568 5.67499 8.67082 6.45554 9.06109L13.1056 12.3861C13.5445 12.6056 13.764 12.7153 14 12.7153C14.2361 12.7153 14.4555 12.6056 14.8944 12.3861L21.5445 9.06109C22.325 8.67082 22.7153 8.47568 22.7153 8.16667C22.7153 7.85765 22.325 7.66251 21.5445 7.27224L14.8944 3.94721C14.4555 3.72776 14.2361 3.61803 14 3.61803C13.764 3.61803 13.5445 3.72776 13.1056 3.94721Z" fill="#BCBCBC"/>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M8.1708 12.2483C8.57391 12.4542 9.01323 12.6739 9.48877 12.9116L12.2112 14.2728C13.089 14.7118 13.5279 14.9312 14 14.9312C14.4722 14.9312 14.9111 14.7118 15.7889 14.2728L18.5113 12.9116C18.9868 12.6739 19.4261 12.4542 19.8292 12.2483L21.5445 13.1059C22.3251 13.4962 22.7153 13.6913 22.7153 14.0003C22.7153 14.3094 22.3251 14.5045 21.5445 14.8948L14.8945 18.2198C14.4555 18.4393 14.2361 18.549 14 18.549C13.764 18.549 13.5445 18.4393 13.1056 18.2198L13.1056 18.2198L6.45555 14.8948C5.675 14.5045 5.28473 14.3094 5.28473 14.0003C5.28473 13.6913 5.675 13.4962 6.45555 13.1059L8.1708 12.2483Z" fill="#BCBCBC"/>
@@ -25,7 +25,7 @@
             </svg>
             <p>Dashboard</p>
         </div>
-        <div class="items">
+        <div class="items" onclick="clickEmployee()">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
               <path d="M10.5 2.33325C7.44331 2.33325 4.95831 4.81825 4.95831 7.87492C4.95831 10.8733 7.30331 13.2999 10.36 13.4049C10.4533 13.3933 10.5466 13.3933 10.6166 13.4049C10.64 13.4049 10.6516 13.4049 10.675 13.4049C10.6866 13.4049 10.6866 13.4049 10.6983 13.4049C13.685 13.2999 16.03 10.8733 16.0416 7.87492C16.0416 4.81825 13.5566 2.33325 10.5 2.33325Z" fill="#BCBCBC"/>
               <path d="M16.4267 16.5084C13.1717 14.3384 7.86335 14.3384 4.58502 16.5084C3.10335 17.5 2.28668 18.8417 2.28668 20.2767C2.28668 21.7117 3.10335 23.0417 4.57335 24.0217C6.20668 25.1184 8.35335 25.6667 10.5 25.6667C12.6467 25.6667 14.7933 25.1184 16.4267 24.0217C17.8967 23.03 18.7134 21.7 18.7134 20.2534C18.7017 18.8184 17.8967 17.4884 16.4267 16.5084Z" fill="#BCBCBC"/>
@@ -34,7 +34,7 @@
             </svg>
             <p>Employees</p>
         </div>
-        <div class="items">
+        <div class="items" onclick="clickMessages()">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
               <path d="M23.3333 7.87492C25.1052 7.87492 26.5417 6.4385 26.5417 4.66659C26.5417 2.89467 25.1052 1.45825 23.3333 1.45825C21.5614 1.45825 20.125 2.89467 20.125 4.66659C20.125 6.4385 21.5614 7.87492 23.3333 7.87492Z" fill="#C2FF51"/>
               <path d="M22.2133 9.50825C20.3816 9.11158 18.8883 7.61825 18.4916 5.78659C18.34 5.07492 18.3283 4.38659 18.4566 3.73325C18.6083 3.00992 18.0716 2.33325 17.325 2.33325H8.16665C4.94665 2.33325 2.33331 4.94659 2.33331 8.16658V16.2749C2.33331 19.4949 4.94665 22.1083 8.16665 22.1083H9.91665C10.2433 22.1083 10.6633 22.3183 10.85 22.5749L12.6 24.8966C13.37 25.9233 14.63 25.9233 15.4 24.8966L17.15 22.5749C17.3716 22.2833 17.71 22.1083 18.0833 22.1083H19.845C23.065 22.1083 25.6666 19.5066 25.6666 16.2866V10.6749C25.6666 9.93992 24.99 9.40325 24.2666 9.54325C23.6133 9.65992 22.925 9.65992 22.2133 9.50825ZM9.33331 13.9999C8.67998 13.9999 8.16665 13.4749 8.16665 12.8333C8.16665 12.1916 8.67998 11.6666 9.33331 11.6666C9.97498 11.6666 10.5 12.1916 10.5 12.8333C10.5 13.4749 9.98665 13.9999 9.33331 13.9999ZM14 13.9999C13.3466 13.9999 12.8333 13.4749 12.8333 12.8333C12.8333 12.1916 13.3466 11.6666 14 11.6666C14.6416 11.6666 15.1666 12.1916 15.1666 12.8333C15.1666 13.4749 14.6533 13.9999 14 13.9999ZM18.6666 13.9999C18.0133 13.9999 17.5 13.4749 17.5 12.8333C17.5 12.1916 18.0133 11.6666 18.6666 11.6666C19.3083 11.6666 19.8333 12.1916 19.8333 12.8333C19.8333 13.4749 19.32 13.9999 18.6666 13.9999Z" fill="#BCBCBC"/>
@@ -60,7 +60,7 @@
 
         <!-- recuitment item -->
         <p>Recruitment</p>
-        <div class="items">
+        <div class="items" onclick="clickJob()">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4884 2.10552C9.70633 2.10552 9.041 2.64897 8.85424 3.38146H15.134C14.9473 2.64897 14.282 2.10552 13.4999 2.10552H10.4884ZM16.9083 3.38146H19.2194C21.6706 3.38146 23.6666 5.4017 23.6666 7.8827C23.6666 7.8827 23.5966 8.93299 23.5733 10.3956C23.5709 10.5114 23.5149 10.6248 23.4227 10.6933C22.8612 11.108 22.3477 11.4506 22.301 11.4742C20.3633 12.7738 18.1117 13.6882 15.713 14.1431C15.5566 14.1738 15.4025 14.0923 15.3231 13.9529C14.6508 12.788 13.3948 12.0295 11.9941 12.0295C10.6028 12.0295 9.33515 12.7797 8.64297 13.9458C8.56243 14.0828 8.41069 14.162 8.25544 14.1325C5.87659 13.6764 3.62496 12.7632 1.699 11.4861L0.578436 10.7063C0.485056 10.6472 0.426693 10.5409 0.426693 10.4228C0.391676 9.82025 0.333313 7.8827 0.333313 7.8827C0.333313 5.4017 2.32931 3.38146 4.78054 3.38146H7.08002C7.3018 1.66839 8.73752 0.333374 10.4884 0.333374H13.4999C15.2508 0.333374 16.6865 1.66839 16.9083 3.38146ZM23.2698 12.9511L23.2231 12.9748C20.8652 14.5579 18.0288 15.6094 15.0523 16.0465C14.6321 16.1056 14.2119 15.8338 14.0952 15.4085C13.8384 14.4397 13.0097 13.8018 12.0175 13.8018H12.0058H11.9825C10.9903 13.8018 10.1616 14.4397 9.90477 15.4085C9.78804 15.8338 9.36783 16.1056 8.94762 16.0465C5.97113 15.6094 3.13471 14.5579 0.776868 12.9748C0.765196 12.963 0.648471 12.8921 0.555091 12.9511C0.450038 13.0102 0.450038 13.152 0.450038 13.152L0.531746 19.1773C0.531746 21.6583 2.51607 23.6667 4.9673 23.6667H19.021C21.4722 23.6667 23.4565 21.6583 23.4565 19.1773L23.5499 13.152C23.5499 13.152 23.5499 13.0102 23.4449 12.9511C23.3865 12.9157 23.3165 12.9275 23.2698 12.9511ZM12.8696 17.9013C12.8696 18.3975 12.4844 18.7874 11.9941 18.7874C11.5156 18.7874 11.1187 18.3975 11.1187 17.9013V16.3773C11.1187 15.8929 11.5156 15.4912 11.9941 15.4912C12.4844 15.4912 12.8696 15.8929 12.8696 16.3773V17.9013Z" fill="#BCBCBC"/>
             </svg>
@@ -127,257 +127,1164 @@
             </div>
         </div>
         <!-- top bar ends here-->
-
-        <p class="itemName">Dashboard</p>
+        
+        <div id="dashboardSection">
+            <p class="itemName">Dashboard</p>
     
-        <!-- cards starts here -->
-        <div class="cards">
-            <div class="cardItem">
-                <div class="cardTitle">Total Employees</div>
-                <div class="cardNo">330</div>
-                <div class="cardPercent">
-                    <div class="percent">+13%</div>
-                    <div class="text">increase in the last year</div>
+            <!-- cards starts here -->
+            <div class="cards">
+                <div class="cardItem">
+                    <div class="cardTitle">Total Employees</div>
+                    <div class="cardNo">330</div>
+                    <div class="cardPercent">
+                        <div class="percent">+13%</div>
+                        <div class="text">increase in the last year</div>
+                    </div>
+                    <div class="view">
+                        <p>View Details</p>
+                    </div>
                 </div>
-                <div class="view">
-                    <p>View Details</p>
+                <div class="cardItem">
+                    <div class="cardTitle">Remote Employees</div>
+                    <div class="cardNo">80</div>
+                    <div class="cardPercent">
+                        <div class="percent">+44%</div>
+                        <div class="text">increase in the last year</div>
+                    </div>
+                    <div class="view">
+                        <p>View Details</p>
+                    </div>
+                </div>
+                <div class="cardItem">
+                    <div class="cardTitle">Onsite Employees</div>
+                    <div class="cardNo">250</div>
+                    <div class="cardPercent">
+                        <div class="percent">+30%</div>
+                        <div class="text">increase in the last year</div>
+                    </div>
+                    <div class="view">
+                        <p>View Details</p>
+                    </div>
+                </div>
+                <div class="cardItem">
+                    <div class="cardTitle">Open Vacancies</div>
+                    <div class="cardNo">9</div>
+                    <div class="text1">Open job positions</div>
+                    <div class="view">
+                        <p>View Details</p>
+                    </div>
                 </div>
             </div>
-            <div class="cardItem">
-                <div class="cardTitle">Remote Employees</div>
-                <div class="cardNo">80</div>
-                <div class="cardPercent">
-                    <div class="percent">+44%</div>
-                    <div class="text">increase in the last year</div>
+            <!-- cards end here -->
+
+            <!-- feeds section starts here -->
+            <div id="feeds">
+                <!-- Activites -->
+                <div class="activity">
+                    <p>Activity Feed</p>
+                    <div class="feedItem">
+                        <div class="feedItem-img">
+                            <img src="images/Frame 38.png" alt="">
+                        </div>
+                        <div class="feedItem-txt">
+                            <h1>Chioma Alabi requested for pull request on github</h1>
+                            <p>13mins ago</p>
+                        </div>
+                        <div class="feedItem-space"></div>
+                        <div class="feedItem-view">
+                            <p>View</p>
+                        </div>
+                    </div>
+
+                    <div class="feedItem">
+                        <div class="feedItem-img">
+                            <img src="images/Frame 38 (1).png" alt="">
+                        </div>
+                        <div class="feedItem-txt">
+                            <h1>Rosemary Tony created post on upcoming tech event</h1>
+                            <p>13mins ago</p>
+                        </div>
+                        <div class="feedItem-space"></div>
+                        <div class="feedItem-view">
+                            <p>View</p>
+                        </div>
+                    </div>
+
+                    <div class="feedItem">
+                        <div class="feedItem-img">
+                            <img src="images/Frame 38 (2).png" alt="">
+                        </div>
+                        <div class="feedItem-txt">
+                            <h1>Saheed Musa requested file access for figma design</h1>
+                            <p>13mins ago</p>
+                        </div>
+                        <div class="feedItem-space"></div>
+                        <div class="feedItem-view">
+                            <p>View</p>
+                        </div>
+                    </div>
+
+                    <div class="feedItem">
+                        <div class="feedItem-img">
+                            <img src="images/Frame 38 (3).png" alt="">
+                        </div>
+                        <div class="feedItem-txt">
+                            <h1>Joy Aluko’s payday is coming </h1>
+                            <p>13mins ago</p>
+                        </div>
+                        <div class="feedItem-space"></div>
+                        <div class="feedItem-view">
+                            <p>View</p>
+                        </div>
+                    </div>
+
+                    <div class="feedItem">
+                        <div class="feedItem-img">
+                            <img src="images/Frame 38 (4).png" alt="">
+                        </div>
+                        <div class="feedItem-txt">
+                            <h1>Esther Thopmson: Flier designs are ready for review</h1>
+                            <p>13mins ago</p>
+                        </div>
+                        <div class="feedItem-space"></div>
+                        <div class="feedItem-view">
+                            <p>View</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="view">
-                    <p>View Details</p>
+                <!-- activities end -->
+
+                <!-- Schedule begins -->
+                <div class="schedules">
+                    <p>Schedules</p>
+                    <div class="scheduleItem">
+                        <div class="date">
+                            <h1>Mon</h1>
+                            <p>10</p>
+                        </div>
+                        <div class="schedule-txt">
+                            <h1>Tech Event with microsoft</h1>
+                            <p>9am - 3:30pm</p>
+                        </div>
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+                              <circle cx="15" cy="15.5" r="10" fill="#303032"/>
+                              <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                            </svg>
+                        </div>
+                        <div class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
+                              <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
+                              <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
+                              <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="scheduleItem">
+                        <div class="date">
+                            <h1>Tue</h1>
+                            <p>11</p>
+                        </div>
+                        <div class="schedule-txt">
+                            <h1>Weekly Organizational meeting</h1>
+                            <p>11am - 1:30pm</p>
+                        </div>
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+                              <circle cx="15" cy="15.5" r="10" fill="#303032"/>
+                              <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                            </svg>
+                        </div>
+                        <div class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
+                              <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
+                              <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
+                              <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="scheduleItem">
+                        <div class="date">
+                            <h1>Tue</h1>
+                            <p>11</p>
+                        </div>
+                        <div class="schedule-txt">
+                            <h1>Interview with frontend interns</h1>
+                            <p>2:30pm - 5pm</p>
+                        </div>
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+                              <circle cx="15" cy="15.5" r="10" fill="#303032"/>
+                              <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                            </svg>
+                        </div>
+                        <div class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
+                              <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
+                              <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
+                              <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="scheduleItem">
+                        <div class="date">
+                            <h1>Wed</h1>
+                            <p>12</p>
+                        </div>
+                        <div class="schedule-txt">
+                            <h1>Sprint for the next big project</h1>
+                            <p>9am - 11:30pm</p>
+                        </div>
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+                              <circle cx="15" cy="15.5" r="10" fill="#303032"/>
+                              <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                            </svg>
+                        </div>
+                        <div class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
+                              <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
+                              <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
+                              <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="scheduleItem">
+                        <div class="date">
+                            <h1>Fri</h1>
+                            <p>14</p>
+                        </div>
+                        <div class="schedule-txt">
+                            <h1>Online social media sensitization</h1>
+                            <p>12pm - 1pm</p>
+                        </div>
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+                              <circle cx="15" cy="15.5" r="10" fill="#303032"/>
+                              <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                            </svg>
+                        </div>
+                        <div class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
+                              <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
+                              <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
+                              <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="cardItem">
-                <div class="cardTitle">Onsite Employees</div>
-                <div class="cardNo">250</div>
-                <div class="cardPercent">
-                    <div class="percent">+30%</div>
-                    <div class="text">increase in the last year</div>
+            <!-- feeds ends here -->
+
+            <!-- last section starts -->
+            <div id="lastSection">
+                <div class="departments">
+                    <h1>Departments</h1>
+                    <p>List of top performing departments of 24 departments in this organization</p>
+                    <div class="table">
+                        <div class="tableItem">
+                            <p class="header">Rank</p>
+                            <p class="header">Perfomance</p>
+                            <p class="header">Current Project</p>
+                        </div>
+                        <div class="tableItem">
+                            <p>1. UX/UI</p>
+                            <div class="bar">
+                                <div class="progress"><p>85%</p></div>
+                            </div>
+                            <div class="projectTxt">
+                                <h1>Life changing organizational project</h1>
+                                <p>Duration: 10 weeks</p>
+                            </div>
+                        </div>
+                        <div class="tableItem">
+                            <p>2. IT</p>
+                            <div class="bar">
+                                <div class="progress1"><p>75%</p></div>
+                            </div>
+                            <div class="projectTxt">
+                                <h1>Life changing organizational project</h1>
+                                <p>Duration: 10 weeks</p>
+                            </div>
+                        </div>
+                        <div class="tableItem">
+                            <p>3. Development</p>
+                            <div class="bar">
+                                <div class="progress2"><p>60%</p></div>
+                            </div>
+                            <div class="projectTxt">
+                                <h1>Life changing organizational project</h1>
+                                <p>Duration: 10 weeks</p>
+                            </div>
+                        </div>
+                        <div class="tableItem">
+                            <p>4. Accounting</p>
+                            <div class="bar">
+                                <div class="progress3"><p>55%</p></div>
+                            </div>
+                            <div class="projectTxt">
+                                <h1>Life changing organizational project</h1>
+                                <p>Duration: 10 weeks</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="view">
-                    <p>View Details</p>
-                </div>
-            </div>
-            <div class="cardItem">
-                <div class="cardTitle">Open Vacancies</div>
-                <div class="cardNo">9</div>
-                <div class="text1">Open job positions</div>
-                <div class="view">
-                    <p>View Details</p>
+
+
+                <div class="calendar">
+                    <div class="calendarTop">
+                        <p>Calendar</p>
+                        <div class="calendarDate">
+                            <p>MAY 2023</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                               <path d="M12.45 5.59375L8.37499 9.66875C7.89374 10.15 7.10624 10.15 6.62499 9.66875L2.54999 5.59375" stroke="#303032" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="calendarBody">
+                        <div class="row day">
+                            <p>SUN</p> <p>MON</p> <p>TUE</p> <p>WED</p> <p>THUR</p> <p>FRI</p> <p>SAT</p>
+                        </div>
+                        <div class="row">
+                            <p class="day">30</p> <p>1</p> <p>2</p> <p>3</p> <p>4</p> <p>5</p> <p>6</p>
+                        </div>
+                        <div class="row">
+                            <p>7</p> <p>8</p> <p>9</p> <p>10</p> <p>11</p> <p>12</p> <p>13</p>
+                        </div>
+                        <div class="row">
+                            <p>14</p> <p>15</p> <p>16</p> <p>17</p> <p>18</p> <p>19</p> <p class="styled">20</p>
+                        </div>
+                        <div class="row">
+                            <p>21</p> <p>22</p> <p>23</p> <p>24</p> <p>25</p> <p>26</p> <p>27</p>
+                        </div>
+                        <div class="row">
+                            <p>28</p> <p>29</p> <p>30</p> <p>31</p> <p class="day">1</p> <p class="day">2</p> <p class="day">3</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- cards end here -->
 
-        <!-- feeds section starts here -->
-        <div id="feeds">
-            <!-- Activites -->
-            <div class="activity">
-                <p>Activity Feed</p>
-                <div class="feedItem">
-                    <div class="feedItem-img">
-                        <img src="images/Frame 38.png" alt="">
+        <div id="employeeSection">
+            <div class="topSect">
+                <p class="itemName">Employees</p>
+                <div class="searchBar1">
+                    <div class="webIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" fill="#BCBCBC"/>
+                            <path d="M21.3 22.0001C21.12 22.0001 20.94 21.9301 20.81 21.8001L18.95 19.9401C18.68 19.6701 18.68 19.2301 18.95 18.9501C19.22 18.6801 19.66 18.6801 19.94 18.9501L21.8 20.8101C22.07 21.0801 22.07 21.5201 21.8 21.8001C21.66 21.9301 21.48 22.0001 21.3 22.0001Z" fill="#BCBCBC"/>
+                        </svg>
                     </div>
-                    <div class="feedItem-txt">
-                        <h1>Chioma Alabi requested for pull request on github</h1>
-                        <p>13mins ago</p>
-                    </div>
-                    <div class="feedItem-space"></div>
-                    <div class="feedItem-view">
-                        <p>View</p>
-                    </div>
+                    <input type="text" placeholder="Search for something">
                 </div>
-
-                <div class="feedItem">
-                    <div class="feedItem-img">
-                        <img src="images/Frame 38 (1).png" alt="">
+                <div class="filterBar">
+                    <div class="filterIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00003 1.5C3.44775 1.5 3.00003 1.94772 3.00003 2.5V3.5H15V2.5C15 1.94772 14.5523 1.5 14 1.5H4.00003ZM14.631 5.5H3.36903C3.4589 5.62664 3.564 5.74348 3.68302 5.84762L7.68302 9.34762C8.43707 10.0074 9.56299 10.0074 10.317 9.34762L14.317 5.84762C14.4361 5.74348 14.5412 5.62664 14.631 5.5Z" fill="#222125"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11.955V7.5H7L7 13.455L11 11.955Z" fill="#222125"/>
+                        </svg>
                     </div>
-                    <div class="feedItem-txt">
-                        <h1>Rosemary Tony created post on upcoming tech event</h1>
-                        <p>13mins ago</p>
-                    </div>
-                    <div class="feedItem-space"></div>
-                    <div class="feedItem-view">
-                        <p>View</p>
-                    </div>
+                    <p>Filter</p>
                 </div>
-
-                <div class="feedItem">
-                    <div class="feedItem-img">
-                        <img src="images/Frame 38 (2).png" alt="">
+                <div class="addNew">
+                    <div class="addIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <path d="M9 4.5L9 13.5" stroke="#C2FF51" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M13.5 9L4.5 9" stroke="#C2FF51" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
                     </div>
-                    <div class="feedItem-txt">
-                        <h1>Saheed Musa requested file access for figma design</h1>
-                        <p>13mins ago</p>
-                    </div>
-                    <div class="feedItem-space"></div>
-                    <div class="feedItem-view">
-                        <p>View</p>
-                    </div>
-                </div>
-
-                <div class="feedItem">
-                    <div class="feedItem-img">
-                        <img src="images/Frame 38 (3).png" alt="">
-                    </div>
-                    <div class="feedItem-txt">
-                        <h1>Joy Aluko’s payday is coming </h1>
-                        <p>13mins ago</p>
-                    </div>
-                    <div class="feedItem-space"></div>
-                    <div class="feedItem-view">
-                        <p>View</p>
-                    </div>
-                </div>
-
-                <div class="feedItem">
-                    <div class="feedItem-img">
-                        <img src="images/Frame 38 (4).png" alt="">
-                    </div>
-                    <div class="feedItem-txt">
-                        <h1>Esther Thopmson: Flier designs are ready for review</h1>
-                        <p>13mins ago</p>
-                    </div>
-                    <div class="feedItem-space"></div>
-                    <div class="feedItem-view">
-                        <p>View</p>
-                    </div>
+                    <p>Add new employee</p>
                 </div>
             </div>
-            <!-- activities end -->
 
-            <!-- Schedule begins -->
-            <div class="schedules">
-                <p>Schedules</p>
-                <div class="scheduleItem">
-                    <div class="calender">
-                        <h1>Mon</h1>
-                        <p>10</p>
+            <div class="checkTable">
+                <div class="row1 checkTitle">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <label for="">Name</label>
                     </div>
-                    <div class="schedule-txt">
-                        <h1>Tech Event with microsoft</h1>
-                        <p>9am - 3:30pm</p>
-                    </div>
-                    <div class="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
-                          <circle cx="15" cy="15.5" r="10" fill="#303032"/>
-                          <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
-                        </svg>
-                    </div>
-                    <div class="menu-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
-                          <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
-                          <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
-                          <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
-                        </svg>
-                    </div>
+                    <p class="location">Location</p>
+                    <p class="location">Department</p>
+                    <p class="location">Hiring Type</p>
+                    <p class="location">Action</p>
+                    <div></div>
                 </div>
-
-                <div class="scheduleItem">
-                    <div class="calender">
-                        <h1>Tue</h1>
-                        <p>11</p>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id="checkbox"> 
+                        <div class="names">
+                            <h1>Robert Lewandowski</h1>
+                            <p>Senior UI/UX Designer</p>
+                        </div>
                     </div>
-                    <div class="schedule-txt">
-                        <h1>Weekly Organizational meeting</h1>
-                        <p>11am - 1:30pm</p>
+                    <div class="location">Nigeria</div>
+                    <div class="dept1">
+                        <p>Design</p>
                     </div>
-                    <div class="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
-                          <circle cx="15" cy="15.5" r="10" fill="#303032"/>
-                          <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                    <p class="hiringType">Fulltime</p>
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
                         </svg>
                     </div>
-                    <div class="menu-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
-                          <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
-                          <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
-                          <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
-                        </svg>
-                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
                 </div>
-
-                <div class="scheduleItem">
-                    <div class="calender">
-                        <h1>Tue</h1>
-                        <p>11</p>
+                <hr>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="names">
+                            <h1>Erling Halland</h1>
+                            <p>Frontend Engineer</p>
+                        </div>
                     </div>
-                    <div class="schedule-txt">
-                        <h1>Interview with frontend interns</h1>
-                        <p>2:30pm - 5pm</p>
+                    <div class="location">Tokyo</div>
+                    <div class="dept2">
+                        <p>Engineering</p>
                     </div>
-                    <div class="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
-                          <circle cx="15" cy="15.5" r="10" fill="#303032"/>
-                          <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                    <p class="hiringType">Contractor</p>
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
                         </svg>
                     </div>
-                    <div class="menu-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
-                          <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
-                          <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
-                          <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
-                        </svg>
-                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
                 </div>
-
-                <div class="scheduleItem">
-                    <div class="calender">
-                        <h1>Wed</h1>
-                        <p>12</p>
+                <hr>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="names">
+                            <h1>Raheem Sterling</h1>
+                            <p>Fullstack Developer</p>
+                        </div>
                     </div>
-                    <div class="schedule-txt">
-                        <h1>Sprint for the next big project</h1>
-                        <p>9am - 11:30pm</p>
+                    <div class="location">Nairobi</div>
+                    <div class="dept3">
+                        <p>Development</p>
                     </div>
-                    <div class="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
-                          <circle cx="15" cy="15.5" r="10" fill="#303032"/>
-                          <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                    <p class="hiringType">Fulltime</p>
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
                         </svg>
                     </div>
-                    <div class="menu-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
-                          <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
-                          <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
-                          <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
-                        </svg>
-                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
                 </div>
-
-                <div class="scheduleItem">
-                    <div class="calender">
-                        <h1>Fri</h1>
-                        <p>14</p>
+                <hr>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="names">
+                            <h1>Harry Kane</h1>
+                            <p>Project manager</p>
+                        </div>
                     </div>
-                    <div class="schedule-txt">
-                        <h1>Online social media sensitization</h1>
-                        <p>12pm - 1pm</p>
+                    <div class="location">Berlin</div>
+                    <div class="dept4">
+                        <p>Management</p>
                     </div>
-                    <div class="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
-                          <circle cx="15" cy="15.5" r="10" fill="#303032"/>
-                          <path d="M11.875 15.5L14.2689 17.8939C14.3275 17.9525 14.4225 17.9525 14.4811 17.8939L19.375 13" stroke="#C2FF51" stroke-width="1.2"/>
+                    <p class="hiringType">Fulltime</p>
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
                         </svg>
                     </div>
-                    <div class="menu-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="19" viewBox="0 0 4 19" fill="none">
-                          <path d="M3.83329 9.50016C3.83329 10.5127 3.01248 11.3335 1.99996 11.3335C0.987438 11.3335 0.166626 10.5127 0.166626 9.50016C0.166626 8.48764 0.987438 7.66683 1.99996 7.66683C3.01248 7.66683 3.83329 8.48764 3.83329 9.50016Z" fill="#303032"/>
-                          <path d="M3.83329 2.16683C3.83329 3.17935 3.01248 4.00016 1.99996 4.00016C0.987438 4.00016 0.166627 3.17935 0.166627 2.16683C0.166627 1.15431 0.987438 0.333496 1.99996 0.333496C3.01248 0.333496 3.83329 1.15431 3.83329 2.16683Z" fill="#303032"/>
-                          <path d="M3.83329 16.8335C3.83329 17.846 3.01248 18.6668 1.99996 18.6668C0.987437 18.6668 0.166626 17.846 0.166626 16.8335C0.166626 15.821 0.987437 15.0002 1.99996 15.0002C3.01248 15.0002 3.83329 15.821 3.83329 16.8335Z" fill="#303032"/>
-                        </svg>
-                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
                 </div>
+                <hr>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="names">
+                            <h1>Kevin DeBruyne</h1>
+                            <p>Network Engineer</p>
+                        </div>
+                    </div>
+                    <div class="location">Rio</div>
+                    <div class="dept5">
+                        <p>Networking</p>
+                    </div>
+                    <p class="hiringType">Fulltime</p>
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                        </svg>
+                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
+                </div>
+                <hr>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="names">
+                            <h1>Martin Ødegaard</h1>
+                            <p>SUI/UX Designer/p>
+                        </div>
+                    </div>
+                    <div class="location">Denver</div>
+                    <div class="dept6">
+                        <p>Design</p>
+                    </div>
+                    <p class="hiringType">Fulltime</p>
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                        </svg>
+                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
+                </div>
+                <hr>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="names">
+                            <h1>Kylian Mpabbe </h1>
+                            <p>Backend Engineer</p>
+                        </div>
+                    </div>
+                    <div class="location">Helsinki</div>
+                    <div class="dept7">
+                        <p>Devops</p>
+                    </div>
+                    <p class="hiringType">Contractor</p> 
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                        </svg>
+                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
+                </div>
+                <hr>
+                <div class="row1">
+                    <div class="checkBox">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="names">
+                            <h1>N’golo Kante</h1>
+                            <p>Backend Engineer</p>
+                        </div>
+                    </div>
+                    <div class="location">Moscow</div>
+                    <div class="dept8">
+                        <p>Designs</p>
+                    </div>
+                    <p class="hiringType">Fulltime</p>
+                    <div class="del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 7.5C4 7.2643 4 7.14645 4.07322 7.07322C4.14645 7 4.2643 7 4.5 7H19.5C19.7357 7 19.8536 7 19.9268 7.07322C20 7.14645 20 7.2643 20 7.5V7.75155C20 7.84249 20 7.88797 19.986 7.92806C19.974 7.96233 19.9547 7.99358 19.9294 8.01963C19.8998 8.0501 19.8591 8.07044 19.7778 8.11111C19.127 8.43649 18.8017 8.59917 18.565 8.84298C18.3626 9.0514 18.2082 9.30138 18.1122 9.57554C18 9.89627 18 10.2601 18 10.9876V16C18 17.8856 18 18.8284 17.4142 19.4142C16.8284 20 15.8856 20 14 20H10C8.11438 20 7.17157 20 6.58579 19.4142C6 18.8284 6 17.8856 6 16V10.9876C6 10.2601 6 9.89627 5.88778 9.57554C5.79185 9.30138 5.63735 9.0514 5.43503 8.84298C5.19835 8.59917 4.87297 8.43649 4.22222 8.11111C4.14088 8.07044 4.10021 8.0501 4.07062 8.01963C4.04533 7.99358 4.02602 7.96233 4.01403 7.92806C4 7.88797 4 7.84249 4 7.75155V7.5Z" fill="#222125"/>
+                          <path d="M10.0681 4.37059C10.1821 4.26427 10.4332 4.17033 10.7825 4.10332C11.1318 4.03632 11.5597 4 12 4C12.4403 4 12.8682 4.03632 13.2175 4.10332C13.5668 4.17033 13.8179 4.26427 13.9319 4.37059" stroke="#222125" stroke-linecap="round"/>
+                          <rect x="14" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                          <rect x="9" y="11" width="1" height="6" rx="0.5" fill="#C2FF51"/>
+                        </svg>
+                    </div>
+                    <div class="details">
+                        <p>See Details</p>
+                    </div> 
+                </div>
+                <hr>
             </div>
         </div>
+        <!-- employee section ends here -->
+
+        <!-- jobs section starts here  -->
+        <div id="jobSection">
+            <div class="topSect">
+                <p class="itemName">Jobs</p>
+                <div class="searchBar1">
+                    <div class="webIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" fill="#BCBCBC"/>
+                            <path d="M21.3 22.0001C21.12 22.0001 20.94 21.9301 20.81 21.8001L18.95 19.9401C18.68 19.6701 18.68 19.2301 18.95 18.9501C19.22 18.6801 19.66 18.6801 19.94 18.9501L21.8 20.8101C22.07 21.0801 22.07 21.5201 21.8 21.8001C21.66 21.9301 21.48 22.0001 21.3 22.0001Z" fill="#BCBCBC"/>
+                        </svg>
+                    </div>
+                    <input type="text" placeholder="Search for something">
+                </div>
+                <div class="filterBar">
+                    <div class="filterIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00003 1.5C3.44775 1.5 3.00003 1.94772 3.00003 2.5V3.5H15V2.5C15 1.94772 14.5523 1.5 14 1.5H4.00003ZM14.631 5.5H3.36903C3.4589 5.62664 3.564 5.74348 3.68302 5.84762L7.68302 9.34762C8.43707 10.0074 9.56299 10.0074 10.317 9.34762L14.317 5.84762C14.4361 5.74348 14.5412 5.62664 14.631 5.5Z" fill="#222125"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11.955V7.5H7L7 13.455L11 11.955Z" fill="#222125"/>
+                        </svg>
+                    </div>
+                    <p>Filter</p>
+                </div>
+                <div class="addNew">
+                    <div class="addIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <path d="M9 4.5L9 13.5" stroke="#C2FF51" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M13.5 9L4.5 9" stroke="#C2FF51" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p>Create job opening</p>
+                </div>
+            </div>
+
+            <p>Available Job Openings (12)</p>
+
+            <div class="jobCards">
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                <div class="jobCard">
+                    <div class="cardDetails">
+                        <p>Senior Product Designer</p>
+                        <div class="deets">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M12.2649 15.8314C12.5964 15.7022 12.9793 15.9847 12.9083 16.3333C12.5 17.9167 11.5833 18.3333 10.4583 18.3333H9.54999C8.42499 18.3333 7.49999 17.9167 7.09999 16.325C7.03145 15.9758 7.41251 15.6956 7.74386 15.8254C8.45606 16.1044 9.21732 16.25 9.99999 16.25C10.7864 16.25 11.5515 16.1095 12.2649 15.8314Z" fill="#BCBCBC"/>
+                              <path d="M12.9083 3.66669C12.982 4.01894 12.5937 4.30577 12.2588 4.17395C11.5607 3.89912 10.799 3.75002 9.99999 3.75002C9.202 3.75002 8.44175 3.90096 7.74303 4.17608C7.41146 4.30663 7.02886 4.02419 7.09999 3.67502C7.49999 2.08335 8.42499 1.66669 9.54999 1.66669H10.4583C11.5833 1.66669 12.5 2.08335 12.9083 3.66669Z" fill="#BCBCBC"/>
+                              <path d="M10 4.58331C7.00834 4.58331 4.58334 7.00831 4.58334 9.99998C4.58334 11.75 5.40834 13.3 6.69168 14.2916H6.70001C7.61668 15 8.75834 15.4166 10 15.4166C11.2583 15.4166 12.4083 14.9916 13.325 14.275H13.3333C14.6 13.2833 15.4167 11.7333 15.4167 9.99998C15.4167 7.00831 12.9917 4.58331 10 4.58331ZM11.6083 11.9833C11.4833 12.1083 11.325 12.1666 11.1667 12.1666C11.0083 12.1666 10.85 12.1083 10.725 11.9833L9.55834 10.8166C9.44168 10.7 9.37501 10.5416 9.37501 10.375V8.04998C9.37501 7.70831 9.65834 7.42498 10 7.42498C10.3417 7.42498 10.625 7.70831 10.625 8.04998V10.1166L11.6083 11.1C11.85 11.3416 11.85 11.7416 11.6083 11.9833Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Freelance</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                              <path d="M6.2375 15.6825C6.215 15.6825 6.185 15.6975 6.1625 15.6975C4.7075 14.9775 3.5225 13.785 2.795 12.33C2.795 12.3075 2.81 12.2775 2.81 12.255C3.725 12.525 4.67 12.7275 5.6075 12.885C5.7725 13.83 5.9675 14.7675 6.2375 15.6825Z" fill="#BCBCBC"/>
+                              <path d="M16.205 12.3375C15.4625 13.83 14.225 15.0375 12.7175 15.765C13.0025 14.8125 13.2425 13.8525 13.4 12.885C14.345 12.7275 15.275 12.525 16.19 12.255C16.1825 12.285 16.205 12.315 16.205 12.3375Z" fill="#BCBCBC"/>
+                              <path d="M16.265 5.78249C15.32 5.49749 14.3675 5.26499 13.4 5.09999C13.2425 4.13249 13.01 3.17249 12.7175 2.23499C14.27 2.97749 15.5225 4.22999 16.265 5.78249Z" fill="#BCBCBC"/>
+                              <path d="M6.2375 2.31748C5.9675 3.23248 5.7725 4.16248 5.615 5.10748C4.6475 5.25748 3.6875 5.49748 2.735 5.78248C3.4625 4.27498 4.67 3.03748 6.1625 2.29498C6.185 2.29498 6.215 2.31748 6.2375 2.31748Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 4.9425C10.3775 4.7475 8.6225 4.7475 6.8825 4.9425C7.07 3.915 7.31 2.8875 7.6475 1.8975C7.6625 1.8375 7.655 1.7925 7.6625 1.7325C8.255 1.59 8.8625 1.5 9.5 1.5C10.13 1.5 10.745 1.59 11.33 1.7325C11.3375 1.7925 11.3375 1.8375 11.3525 1.8975C11.69 2.895 11.93 3.915 12.1175 4.9425Z" fill="#BCBCBC"/>
+                              <path d="M5.4425 11.6175C4.4075 11.43 3.3875 11.19 2.3975 10.8525C2.3375 10.8375 2.2925 10.845 2.2325 10.8375C2.09 10.245 2 9.63751 2 9.00001C2 8.37001 2.09 7.75501 2.2325 7.17001C2.2925 7.16251 2.3375 7.16251 2.3975 7.14751C3.395 6.81751 4.4075 6.57001 5.4425 6.38251C5.255 8.12251 5.255 9.87751 5.4425 11.6175Z" fill="#BCBCBC"/>
+                              <path d="M17 9.00001C17 9.63751 16.91 10.245 16.7675 10.8375C16.7075 10.845 16.6625 10.8375 16.6025 10.8525C15.605 11.1825 14.585 11.43 13.5575 11.6175C13.7525 9.87751 13.7525 8.12251 13.5575 6.38251C14.585 6.57001 15.6125 6.81001 16.6025 7.14751C16.6625 7.16251 16.7075 7.17001 16.7675 7.17001C16.91 7.76251 17 8.37001 17 9.00001Z" fill="#BCBCBC"/>
+                              <path d="M12.1175 13.0575C11.93 14.0925 11.69 15.1125 11.3525 16.1025C11.3375 16.1625 11.3375 16.2075 11.33 16.2675C10.745 16.41 10.13 16.5 9.5 16.5C8.8625 16.5 8.255 16.41 7.6625 16.2675C7.655 16.2075 7.6625 16.1625 7.6475 16.1025C7.3175 15.105 7.07 14.0925 6.8825 13.0575C7.7525 13.155 8.6225 13.2225 9.5 13.2225C10.3775 13.2225 11.255 13.155 12.1175 13.0575Z" fill="#BCBCBC"/>
+                              <path d="M12.3225 11.8225C10.4467 12.0592 8.55332 12.0592 6.6775 11.8225C6.44083 9.94668 6.44083 8.05332 6.6775 6.1775C8.55332 5.94083 10.4467 5.94083 12.3225 6.1775C12.5592 8.05332 12.5592 9.94668 12.3225 11.8225Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Nigeria</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02826 1.63923C6.52551 1.63923 6.0978 1.9886 5.97774 2.45948H10.0148C9.8947 1.9886 9.46698 1.63923 8.96423 1.63923H7.02826ZM11.1553 2.45948H12.6411C14.2169 2.45948 15.5 3.75821 15.5 5.35314C15.5 5.35314 15.455 6.02833 15.44 6.96857C15.4385 7.043 15.4025 7.11592 15.3432 7.15997C14.9822 7.42655 14.6521 7.6468 14.6221 7.66199C13.3764 8.49743 11.929 9.08527 10.3869 9.37768C10.2864 9.39742 10.1873 9.34502 10.1363 9.2554C9.7041 8.50654 8.8967 8.01895 7.99625 8.01895C7.1018 8.01895 6.28689 8.50123 5.84192 9.25084C5.79015 9.33894 5.6926 9.38983 5.5928 9.37084C4.06353 9.07768 2.61606 8.49059 1.37794 7.66958L0.657579 7.16832C0.597549 7.13035 0.56003 7.06199 0.56003 6.98604C0.537519 6.5987 0.5 5.35314 0.5 5.35314C0.5 3.75821 1.78314 2.45948 3.35893 2.45948H4.83717C4.97974 1.35822 5.9027 0.5 7.02826 0.5H8.96423C10.0898 0.5 11.0128 1.35822 11.1553 2.45948ZM15.2449 8.61143L15.2149 8.62662C13.6991 9.64433 11.8757 10.3203 9.96223 10.6013C9.6921 10.6393 9.42196 10.4646 9.34692 10.1912C9.18184 9.56838 8.64907 9.15826 8.01126 9.15826H8.00375H7.98874C7.35093 9.15826 6.81816 9.56838 6.65308 10.1912C6.57804 10.4646 6.3079 10.6393 6.03777 10.6013C4.12431 10.3203 2.3009 9.64433 0.785143 8.62662C0.777639 8.61902 0.702601 8.57345 0.642571 8.61143C0.575037 8.6494 0.575037 8.74054 0.575037 8.74054L0.627564 12.6139C0.627564 14.2089 1.9032 15.5 3.47899 15.5H12.5135C14.0893 15.5 15.3649 14.2089 15.3649 12.6139L15.425 8.74054C15.425 8.74054 15.425 8.6494 15.3574 8.61143C15.3199 8.58864 15.2749 8.59624 15.2449 8.61143ZM8.55903 11.7937C8.55903 12.1127 8.31141 12.3633 7.99625 12.3633C7.68859 12.3633 7.43347 12.1127 7.43347 11.7937V10.8139C7.43347 10.5026 7.68859 10.2443 7.99625 10.2443C8.31141 10.2443 8.55903 10.5026 8.55903 10.8139V11.7937Z" fill="#BCBCBC"/>
+                            </svg>
+                            <p>Design</p>
+                        </div>
+                        <div class="cardTable">
+                            <div class="AHE">
+                                <h1>Applied</h1> <h1>Hireable</h1> <h1>Experience</h1>
+                            </div>
+                            <div class="AHE">
+                                <p>43</p> <p>3</p> <p>4 yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardView">View Details</div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Job section ends here -->
+
+        <!-- Message starts here -->
+        <div id="messageSection">
+            <div class="topSect">
+                <p class="itemName">Messages</p>
+                <div class="searchBar1">
+                    <div class="webIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" fill="#BCBCBC"/>
+                            <path d="M21.3 22.0001C21.12 22.0001 20.94 21.9301 20.81 21.8001L18.95 19.9401C18.68 19.6701 18.68 19.2301 18.95 18.9501C19.22 18.6801 19.66 18.6801 19.94 18.9501L21.8 20.8101C22.07 21.0801 22.07 21.5201 21.8 21.8001C21.66 21.9301 21.48 22.0001 21.3 22.0001Z" fill="#BCBCBC"/>
+                        </svg>
+                    </div>
+                    <input type="text" placeholder="Search for something">
+                </div>
+                <div class="filterBar">
+                    <div class="filterIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00003 1.5C3.44775 1.5 3.00003 1.94772 3.00003 2.5V3.5H15V2.5C15 1.94772 14.5523 1.5 14 1.5H4.00003ZM14.631 5.5H3.36903C3.4589 5.62664 3.564 5.74348 3.68302 5.84762L7.68302 9.34762C8.43707 10.0074 9.56299 10.0074 10.317 9.34762L14.317 5.84762C14.4361 5.74348 14.5412 5.62664 14.631 5.5Z" fill="#222125"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11.955V7.5H7L7 13.455L11 11.955Z" fill="#222125"/>
+                        </svg>
+                    </div>
+                    <p>Filter</p>
+                </div>
+                <div class="addNew">
+                    <div class="addIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <path d="M9 4.5L9 13.5" stroke="#C2FF51" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M13.5 9L4.5 9" stroke="#C2FF51" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p>Send a message</p>
+                </div>
+            </div>
+
+            <div class="messages">
+                <div class="recent">
+                    <p>Recent Messages</p>
+                    <div class="rcntMsg">
+                        <div class="msg">
+                            <div class="msgImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                            <div class="msgTxt">
+                                <div class="nmDt">
+                                    <h1>Tony</h1>
+                                    <p>22/05/2023</p>
+                                </div>
+                                <p>Good morning Hr, I wanted to get your approval 
+                                    to be gin the design sprint for the next phase......</p>
+                            </div>
+                        </div>
+                        <div class="msg">
+                            <div class="msgImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                            <div class="msgTxt">
+                                <div class="nmDt">
+                                    <h1>Tony</h1>
+                                    <p>22/05/2023</p>
+                                </div>
+                                <p>Good morning Hr, I wanted to get your approval 
+                                    to be gin the design sprint for the next phase......</p>
+                            </div>
+                        </div>
+                        <div class="msg">
+                            <div class="msgImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                            <div class="msgTxt">
+                                <div class="nmDt">
+                                    <h1>Tony</h1>
+                                    <p>22/05/2023</p>
+                                </div>
+                                <p>Good morning Hr, I wanted to get your approval 
+                                    to be gin the design sprint for the next phase......</p>
+                            </div>
+                        </div>
+                        <div class="msg">
+                            <div class="msgImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                            <div class="msgTxt">
+                                <div class="nmDt">
+                                    <h1>Tony</h1>
+                                    <p>22/05/2023</p>
+                                </div>
+                                <p>Good morning Hr, I wanted to get your approval 
+                                    to be gin the design sprint for the next phase......</p>
+                            </div>
+                        </div>
+                        <div class="msg">
+                            <div class="msgImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                            <div class="msgTxt">
+                                <div class="nmDt">
+                                    <h1>Efe Tony</h1>
+                                    <p>22/05/2023</p>
+                                </div>
+                                <p>Good morning Hr, I wanted to get your approval 
+                                    to be gin the design sprint for the next phase......</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="chats">
+                    <p>Chats</p>
+                    <div class="chatSpace">
+                        <div class="yDay">
+                            <p>Yesterday</p>
+                        </div>
+                        <div class="chat">
+                            <div class="ChatImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                            <div class="chatMsg">
+                                <p>The IT department and the hr depart need to have a design sprint to discuss the features for the firefly project tht will revolutionalize the tech space in the coming years, paving way for AI technology.</p>
+                                <h3>3:43 PM</h3>
+                            </div>
+                        </div>
+                        <div class="TDay">
+                            <p>Today</p>
+                        </div>
+
+                        <div class="chat">
+                            <div class="ChatImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                            <div class="chatMsg">
+                                <p>The IT department and the hr depart need to have a design sprint to discuss the features for the firefly project tht will revolutionalize the tech space in the coming years, paving way for AI technology.</p>
+                                <h3>3:43 PM</h3>
+                            </div>
+                        </div>
+
+                        <div class="chatReply">
+                            <div class="chatMsg">
+                                <p>The IT department and the hr depart need to have a design sprint to discuss the features for the firefly project tht will revolutionalize the tech space in the coming years, paving way for AI technology.</p>
+                                <h3>3:43 PM</h3>
+                            </div>
+                            <div class="ChatImg">
+                                <img src="images/Frame 80.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="typingSection">
+                    <div class="typingBar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <circle cx="12" cy="12" r="9" fill="#C2FF51" stroke="#C2FF51"/>
+                          <path d="M9 15C9 15 10.5 16 12 16C13.5 16 15 15 15 15" stroke="#424242" stroke-linecap="round"/>
+                          <path d="M9.5 9.5V12" stroke="#424242" stroke-linecap="round"/>
+                          <path d="M14.5 9.5V12" stroke="#424242" stroke-linecap="round"/>
+                        </svg>
+
+                        <input type="text" placeholder="Type a message">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M15.44 3.2364C15.48 3.30633 15.55 3.35627 15.64 3.35627C18.04 3.35627 20 5.3141 20 7.71143V13.6448C20 16.0422 18.04 18 15.64 18H4.36C1.95 18 0 16.0422 0 13.6448V7.71143C0 5.3141 1.95 3.35627 4.36 3.35627C4.44 3.35627 4.52 3.31632 4.55 3.2364L4.61 3.11654C4.64448 3.04397 4.67987 2.96943 4.71579 2.89376C4.97161 2.35492 5.25463 1.75879 5.43 1.40844C5.89 0.509434 6.67 0.0099889 7.64 0H12.35C13.32 0.0099889 14.11 0.509434 14.57 1.40844C14.7275 1.72308 14.9674 2.2299 15.1987 2.71839C15.2464 2.81921 15.2938 2.91924 15.34 3.01665L15.44 3.2364ZM14.71 7.07214C14.71 7.57159 15.11 7.97114 15.61 7.97114C16.11 7.97114 16.52 7.57159 16.52 7.07214C16.52 6.5727 16.11 6.16315 15.61 6.16315C15.11 6.16315 14.71 6.5727 14.71 7.07214ZM8.27 8.62042C8.74 8.15094 9.35 7.90122 10 7.90122C10.65 7.90122 11.26 8.15094 11.72 8.61043C12.18 9.06992 12.43 9.67924 12.43 10.3285C12.42 11.667 11.34 12.7558 10 12.7558C9.35 12.7558 8.74 12.5061 8.28 12.0466C7.82 11.5871 7.57 10.9778 7.57 10.3285V10.3185C7.56 9.68923 7.81 9.07991 8.27 8.62042ZM12.77 13.1054C12.06 13.8147 11.08 14.2542 10 14.2542C8.95 14.2542 7.97 13.8446 7.22 13.1054C6.48 12.3563 6.07 11.3774 6.07 10.3285C6.06 9.28968 6.47 8.31077 7.21 7.5616C7.96 6.81243 8.95 6.40289 10 6.40289C11.05 6.40289 12.04 6.81243 12.78 7.55161C13.52 8.30078 13.93 9.28968 13.93 10.3285C13.92 11.4173 13.48 12.3962 12.77 13.1054Z" fill="#C2FF51"/>
+                        </svg>
+                    </div>
+                    <div class="mic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M19.12 9.12011C18.73 9.12011 18.42 9.43011 18.42 9.82011V11.4001C18.42 14.9401 15.54 17.8201 12 17.8201C8.45999 17.8201 5.57999 14.9401 5.57999 11.4001V9.81011C5.57999 9.42011 5.26999 9.11011 4.87999 9.11011C4.48999 9.11011 4.17999 9.42011 4.17999 9.81011V11.3901C4.17999 15.4601 7.30999 18.8101 11.3 19.1701V21.3001C11.3 21.6901 11.61 22.0001 12 22.0001C12.39 22.0001 12.7 21.6901 12.7 21.3001V19.1701C16.68 18.8201 19.82 15.4601 19.82 11.3901V9.81011C19.81 9.43011 19.5 9.12011 19.12 9.12011Z" fill="#222125"/>
+                          <path d="M12 2C9.56002 2 7.58002 3.98 7.58002 6.42V11.54C7.58002 13.98 9.56002 15.96 12 15.96C14.44 15.96 16.42 13.98 16.42 11.54V6.42C16.42 3.98 14.44 2 12 2ZM13.31 8.95C13.24 9.21 13.01 9.38 12.75 9.38C12.7 9.38 12.65 9.37 12.6 9.36C12.21 9.25 11.8 9.25 11.41 9.36C11.09 9.45 10.78 9.26 10.7 8.95C10.61 8.64 10.8 8.32 11.11 8.24C11.7 8.08 12.32 8.08 12.91 8.24C13.21 8.32 13.39 8.64 13.31 8.95ZM13.84 7.01C13.75 7.25 13.53 7.39 13.29 7.39C13.22 7.39 13.16 7.38 13.09 7.36C12.39 7.1 11.61 7.1 10.91 7.36C10.61 7.47 10.27 7.31 10.16 7.01C10.05 6.71 10.21 6.37 10.51 6.27C11.47 5.92 12.53 5.92 13.49 6.27C13.79 6.38 13.95 6.71 13.84 7.01Z" fill="#222125"/>
+                        </svg>
+                    </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
     </div>
     
+    <script src="function.js"></script>
 </body>
 </html>
