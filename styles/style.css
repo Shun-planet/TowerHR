@@ -7,7 +7,25 @@
     list-style-type: none;
 }
 
+/* Menu selection visibility toggle */
+#dashboardSection {
+    display: block;
+}
+#employeeSection {
+    display: none;
+}
+#jobSection {
+    display: none;
+}
+#messageSection {
+    display: none;
+}
 
+/* .myItemStyling{
+    border-top: 1px solid var(--lemon, #C2FF51);
+    border-bottom: 1px solid var(--lemon, #C2FF51);
+    background: rgba(194, 255, 81, 0.10);
+} */
 /* body styling */
 body{
     display: grid;
@@ -52,6 +70,7 @@ body{
     display: flex;
     justify-items: center;
     cursor: pointer;
+    
 }
 .items>p{
     color: #BCBCBC;
@@ -61,7 +80,7 @@ body{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.015rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-left: .5rem;
 }
 .items>p:hover,.items>svg:hover {
@@ -80,11 +99,10 @@ body{
 
 /* work area styling */
 #workArea {
-    background-color: #ececec;
+    background-color: #faf9f9;
     /* min-width: 85%; */
     
-}
-/* top bar */
+} 
 .dashBar{
     background-color: #FEFFFB;
     display: grid;
@@ -95,7 +113,7 @@ body{
     /* justify-content: space-between; */
     height: 5rem;
     box-shadow: 2px 2px 3px rgb(199, 199, 199);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .searchBar{
     display: flex;
@@ -157,7 +175,7 @@ body{
 
 /* cards starts here */
 .cards{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto auto auto auto;
@@ -169,6 +187,7 @@ body{
     padding-top: .8rem;
     background-color: #FEFFFB;
     border-radius: 7px;
+    box-shadow: 2px 2px 3px rgb(199, 199, 199);
 }
 .cardTitle{
     padding-left: .7rem;
@@ -208,7 +227,7 @@ body{
     width: 16rem;
     text-align: center;
     padding: 0.8rem 0;
-    margin-bottom: .1rem;
+    /* margin-bottom: .1rem; */
     /* padding-top: 3px; */
     /* border-radius: 4px; */
 }
@@ -217,7 +236,7 @@ body{
 /* feeds begin here */
 #feeds{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 2fr 1.6fr;
     grid-template-rows: auto;
     justify-content: space-between;
 }
@@ -226,6 +245,7 @@ body{
     padding: 1rem 1.5rem;
     background-color: #FEFFFB;
     border-radius: 7px;
+    box-shadow: 0px 0px 3px grey;
     >p{
         font-size: 1.2rem;
         font-weight: 500;
@@ -273,6 +293,7 @@ body{
     padding: 1rem 1.5rem;
     background-color: #FEFFFB;
     border-radius: 7px;
+    box-shadow: 0px 0px 3px grey;
     >p{
         font-size: 1.2rem;
         font-weight: 500;
@@ -286,7 +307,7 @@ body{
         align-items: center;
         padding-bottom: 1rem;
         padding-top: .8rem;
-        .calender{
+        .date{
             background-color: black;
             text-align: center;
             margin-right: 2.5rem;
@@ -316,6 +337,547 @@ body{
                 font-size: .7rem;
                 color: #8d8d8d;
             }
+        }
+    }
+}
+
+/* Last section styling */
+#lastSection{
+    padding: 1rem 1.5rem;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 2fr 1.4fr;
+    grid-template-areas: auto;
+    .departments{
+        margin-right: 3rem;
+        padding: 2rem 1.5rem;
+        background-color: #FEFFFB;
+        width: 2fr;
+        border-radius: 7px;
+        box-shadow: 0px 0px 3px grey;
+        >h1{
+            font-size: 1.5rem;
+            padding-bottom: .2rem;
+        }
+        >p{
+            font-size: .7rem;
+            padding-bottom: .3rem;
+        }
+        .table{
+            .tableItem{
+                display: grid;
+                justify-content: space-between;
+                margin: 1rem 0;
+                grid-template-columns: 1fr 1fr 1.5fr;
+                grid-template-areas: auto auto auto auto auto;
+
+                .header{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+                .bar{
+                    position: relative;
+                    border-style: solid;
+                    border-color: black;
+                    border-radius: 4px;
+                    border-width: 2px;
+                    width: 3.5rem;
+                    height: 1.2rem;
+                    font-size: .7rem;
+                    text-align: center;
+                    padding: .1rem 0;
+                    .progress{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background-color: #C2FF51;
+                        width: 85%;
+                        height: 100%;
+                        >p {
+                            padding: 2px 0;
+                        }
+                    }
+                    .progress1{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background-color: #C2FF51;
+                        width: 75%;
+                        height: 100%;
+                        >p {
+                            padding: 2px 0;
+                        }
+                    }
+                    .progress2{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background-color: #C2FF51;
+                        width: 60%;
+                        height: 100%;
+                        >p {
+                            padding: 2px 0;
+                        }
+                    }
+                    .progress3{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background-color: #C2FF51;
+                        width: 55%;
+                        height: 100%;
+                        >p {
+                            padding: 2px 0;
+                        }
+                    }
+                }
+                .projectTxt{
+                    >h1{
+                        font-size: .9rem;
+                        font-weight: 500;
+                    }
+                    >p{
+                        font-size: .7rem;
+                        color: #8d8d8d;
+                    }
+                }
+            }
+        }
+    }
+
+    .calendar{
+        background-color: #FEFFFB;
+        border-radius: 7px;
+        padding: 2rem 1.5rem;
+        box-shadow: 0px 0px 3px grey;
+        .calendarTop{
+            display: flex;
+            justify-content: space-between;
+            >p{
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .calendarDate{
+                display: flex;
+                background-color: #C2FF51;
+                font-size: .7rem;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                width: 5.5rem;
+                >p{
+                    padding-right: 3px;
+                }
+            }
+        }
+        .calendarBody{
+            font-size: .8rem;
+            .row{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: auto auto auto auto auto auto;
+                justify-content: space-between;
+                margin: 1.5rem 0;
+                >p{
+                    text-align: center;
+                }
+            }
+            .day{
+                color: #8d8d8d;
+            }
+            .styled{
+                background-color: black;
+                color: #C2FF51;
+                border-radius: 100%;
+                width: 1.5rem;
+                height: 1.5rem;
+                margin: 0 16px;
+                padding-top: 4px;
+            }
+        }
+    }
+}
+
+
+/* Employees section */
+.topSect{
+    display: grid;
+    grid-template-columns: 1fr .7fr .2fr .5fr;
+    justify-content: space-between;
+    .searchBar1{
+        display: flex;
+        border-radius: 10px;
+        background-color: #ececec;
+        padding-left: .4rem;
+        padding-top: .2rem;
+        width: 15rem;
+        >input {
+            background-color: transparent;
+            border-radius: 10px;
+            height: 2rem;
+            width: 15rem;
+        }
+    
+        >input::placeholder {
+            padding: .2rem .8rem;
+            color: #8d8d8d;
+        }
+    }
+    .filterBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 4px grey;
+        border-radius: 7px;
+        >p{
+            margin-left: .4rem;
+        }
+    }
+    .addNew{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 7px;
+        margin-right: 2rem;
+        margin-left: 1rem;
+        >p{
+            color: #C2FF51;
+            margin-left: .4rem;
+        }
+    }
+}
+
+.checkTable{
+    >hr{
+        background-color: #8d8d8d;
+        width: 100%;
+        height: 1.5px;
+    }
+    padding: 4rem 1.8rem;
+    .checkTitle{
+        color: #8d8d8d;
+    }
+    .row1{
+        display: grid;
+        grid-template-columns: 1.2fr 1fr 1fr .8fr .3fr .5fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        padding-top: .7rem;
+        padding-bottom: .7rem;
+        .checkBox{
+            >label{
+                padding-left: .5rem;
+            }
+            display: flex;
+            .names{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: .5rem;
+                line-height: 13px;
+                >h1{
+                    font-size: 1rem;
+                }
+                >p{
+                    font-size: .7rem;
+                    color: #8d8d8d;
+                }
+            }
+        }
+        .location, .dept, .hiringType, .del{
+            display: flex;
+            align-items: center;
+        }
+        .details{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            border-radius: 7px;
+            /* margin-right: 2rem;
+            margin-left: 1rem; */
+            >p{
+                color: #C2FF51;
+                margin-left: .4rem;
+            }
+        }
+        .del{
+            background-color: #C2FF51;
+            width: fit-content;
+        }
+        /* Department styling */
+        .dept1,.dept2,.dept3,.dept4,.dept5,.dept6,.dept7,.dept8{
+            background-color: rgba(81, 119, 255, 0.30);
+            color: #1334E2;
+            width: fit-content;
+            height: 1.3rem;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            >p{
+                font-size: smaller;
+            }
+        }
+        .dept1{
+            background-color: #5177FF4D;
+            color: #1334E2;
+        }
+        .dept2{
+            background-color: #5177FF4D;
+            color: #1334E2;
+        }
+        .dept3{
+            background-color: #D213E24D;
+            color: #D213E2;
+        }
+        .dept4{
+            background-color: #C2FF514D;
+            color: black;
+        }
+        .dept5{
+            background-color: #F3C0B5;
+            color: #E23813;
+        }
+        .dept6{
+            background-color: #5177FF4D;
+            color: #1334E2;
+        }
+        .dept7{
+            background-color: #17E21333;
+            color: #17E213;
+        }
+        .dept8{
+            background-color: #5177FF4D;
+            color: #1334E2;
+        }
+
+    }
+}
+
+/* Job section starts here */
+#jobSection{
+    >p{
+        margin-top: 3.5rem;
+        font-weight: 500;
+        font-size: 1.7rem;
+        padding-left: 1.5rem;
+    }
+    .jobCards{
+        margin: 2rem 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        justify-content: space-between;
+        .jobCard{
+            margin: 1rem;
+            .cardDetails{
+                box-shadow: 0px 0px 3px grey;
+                border-radius: 0.75rem 0.75rem 0 0;
+                >p{
+                    font-weight: 600;
+                    font-size: 1.3rem;
+                    padding:1.3rem .5rem .5rem 1rem;
+                }
+                .deets{
+                    display: flex;
+                    padding: .5rem .5rem;
+                    >p{
+                        padding-left: .5rem;
+                        padding-right: 1.2rem;
+                        color: #8d8d8d;
+                    }
+                }
+                .cardTable{
+                    padding: .5rem .5rem;
+                    .AHE{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-rows: auto auto;
+                        justify-content: space-between;
+                        >h1{
+                            font-size: 1rem;
+                            font-weight: 500;
+                            padding: .5rem .5rem;
+                        }
+                        >P{
+                            padding: 0 .5rem .8rem .5rem;
+                            font-size: 1.3rem;
+                            color: #8d8d8d;
+                        }
+                    }
+                }
+            }
+            .cardView{
+                box-shadow: 0px 0px 3px grey;
+                background-color: black;
+                color: #C2FF51;
+                font-size: .8rem;
+                height: 3rem;
+                text-align: center;
+                padding: 0.9rem 0;
+                border-radius: 0rem 0rem 0.75rem 0.75rem;
+            }
+        }
+    }
+}
+/* Job section ends here */
+
+/* messages starts here */
+.messages{
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    margin: 2rem 1.5rem;
+    .recent{
+        margin-right: 1rem;
+        >p{
+        font-size: 1.2rem;
+        font-weight: 600;
+        }
+        .rcntMsg{
+            border-radius: 7px;
+            box-shadow: 0px 0px 3px grey;
+            margin-top: 3rem;
+            padding: 1.5rem 1rem 1rem 1.5rem;
+            .msg{
+                display: flex;
+                margin-bottom: 2rem;
+                .msgTxt{
+                    padding-left: .5rem;
+                    padding-right: 1rem;
+                    .nmDt{
+                        display: flex;
+                        justify-content: space-between;
+                        >h1{
+                            font-size: 1rem;
+                            font-weight: 500;
+                        }
+                        >p{
+                            font-size: .8rem;
+                            color: #8d8d8d;
+                        }
+                    }
+                    >p{
+                        color: #8d8d8d;
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+    .chats{
+        /* position: relative; */
+        margin-left: 1rem;
+        >p{
+        font-size: 1.2rem;
+        font-weight: 600;
+        }
+        .chatSpace{
+            position: relative;
+            .yDay{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin-bottom: 1.5rem;
+                >p{
+                    background-color: #222125;
+                    width: 15%;
+                    padding: 5px 0;
+                    color: #C2FF51;
+                    border-radius: 5px;
+                }
+            }
+            .chat{
+                display: flex;
+                width: 70%;
+                margin-bottom: 1.5rem;
+                .chatMsg{
+                    margin: 0 1rem;
+                    >p{
+                    background-color: #ececec;
+                    padding: 1rem;
+                    border-radius: 10px;
+                    margin-bottom: .5rem;
+                    font-size: .9rem;
+                    }
+                    >h3{
+                        font-weight: 500;
+                        font-size: .7rem;
+                    }
+                }
+            }
+            .TDay{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin-bottom: 1.5rem;
+                >p{
+                    background-color: #222125;
+                    width: 10%;
+                    padding: 5px 0;
+                    color: #C2FF51;
+                    border-radius: 5px;
+                }
+            }
+            .chatReply{
+                position: absolute;
+                /* float: right; */
+                right: 2rem;
+                clear: both;
+                display: flex;
+                    width: 70%;
+                    margin-bottom: 1.5rem;
+                
+                    .chatMsg {
+                        margin: 0 1rem;
+                        /* order: 1;
+                        >img{
+                            order: 2;
+                        } */
+                
+                        >p {
+                            background-color: #222125;
+                            padding: 1rem;
+                            border-radius: 10px;
+                            margin-bottom: .5rem;
+                            font-size: .9rem;
+                            color: #ececec;
+                        }
+                
+                        >h3 {
+                            font-weight: 500;
+                            font-size: .7rem;
+                            float: right;
+                        }
+                    }
+            }
+        }
+
+        .typingSection{
+            margin-top: 10rem;
+            display: flex;
+            justify-content: space-between;
+            .typingBar{
+                background-color: #222125;
+                display: flex;
+                align-items: center;
+                width: 92%;
+                border-radius: 50px;
+                padding: .2rem .5rem;
+                >input{
+                    width: 92%;
+                    padding: 0 .5rem;
+                    background-color: transparent;                    
+                }
+            }
+        }
+        .mic{
+            background-color: #C2FF51;
+            border-radius: 50%;
+            width: 2rem;
+            height: 2rem;
+            padding: .3rem .2rem .1rem .2rem;
         }
     }
 }
